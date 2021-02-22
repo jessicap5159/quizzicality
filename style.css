@@ -1,13 +1,20 @@
-/* test */ 
+body {
+    background-color: lemonchiffon;
+}
+
 header, .start-button, .high-scores {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue; 
 }
+
 
 header {
     padding: 200px;
   padding-top: 20px;
   font-size: 25px;
+  font-weight:bold; 
+
 }
 
 button {
@@ -19,19 +26,27 @@ button {
     border: none;
     cursor: pointer;
     outline: none;
+    font-weight:bold; 
+
 
 }
+  
+
 
 button:hover {background-color: rgb(119, 157, 247);
 }
 
 button:active {
-   
     box-shadow: 0 5px #666;
     transform: translateY(4px); 
 }
 
+
+
 .high-scores {
     padding-top: 75px;
     font-size: 20px;
+    font-weight:bold; 
 }
+
+
