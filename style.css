@@ -1,0 +1,36 @@
+header, .start-button, .high-scores {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    padding: 200px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+button {
+    background-color: royalblue; 
+    border-radius: 25px;
+    line-height: 40px;
+    font-size: 25px;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:hover {background-color: rgb(119, 157, 247);
+}
+
+button:active {
+   
+    box-shadow: 0 5px #666;
+    transform: translateY(4px); 
+}
+
+.high-scores {
+    padding-top: 75px;
+    font-size: 20px;
+}
