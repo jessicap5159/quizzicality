@@ -27,11 +27,8 @@ button {
     cursor: pointer;
     outline: none;
     font-weight:bold; 
-
-
 }
   
-
 
 button:hover {background-color: rgb(119, 157, 247);
 }
@@ -41,7 +38,9 @@ button:active {
     transform: translateY(4px); 
 }
 
-
+#countdown {
+    text-align: center;
+}
 
 .high-scores {
     padding-top: 75px;
